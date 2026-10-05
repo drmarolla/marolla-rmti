@@ -1,0 +1,29 @@
+RMTI: Risk Mechanism Theory Index
+Copyright 2026 Cesar Marolla
+
+This product includes software originally developed by Cesar Marolla
+(ORCID: https://orcid.org/0000-0001-8498-7380), first created for
+ENVR E-241 "Risk by Design," Harvard University, Division of Continuing
+Education.
+
+The Risk Mechanism Theory Index (RMTI) is described in:
+
+  Marolla, C. (2025). "Enhancing urban resilience to California wildfires:
+  A systemic risk mechanism design and theory framework for a
+  comprehensive risk assessment." International Journal of Management
+  and Data Analytics, 5(1), 60-77.
+
+  Marolla, C. (2026). "From Narrative to Algorithm: A Risk Mechanism
+  Theory Index for Urban Infrastructure Investment in Sub-Saharan
+  Africa." Natural Hazards (submitted, manuscript NHAZ-D-26-03050).
+
+  Marolla, C. (2026). "The Risk Mechanism Theory Index as a triage and
+  evidence-grading layer for hepatocellular carcinoma surveillance."
+  (Manuscript in preparation / submitted.)
+
+Software citation: see CITATION.cff. Concept DOI (always resolves to the
+latest release of this repository): https://doi.org/10.5281/zenodo.21445892
+
+Licensed under the Apache License, Version 2.0 (see LICENSE). This NOTICE
+file is provided for informational and attribution purposes per Apache
+License 2.0 Section 4(d); it does not itself modify the License.

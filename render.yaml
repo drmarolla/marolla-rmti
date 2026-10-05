@@ -1,0 +1,19 @@
+# Render Blueprint. KEEP `plan: free` -- if this line is removed, Render defaults the
+# service to the paid "starter" plan and asks for a credit card.
+# The code ships as rmti-code.zip so no folder structure can be lost during upload;
+# Render unpacks it at build time and again at start (harmless if repeated).
+services:
+  - type: web
+    name: marolla-rmti
+    runtime: python
+    plan: free
+    buildCommand: >-
+      pip install -r requirements.txt &&
+      python -c "import zipfile; zipfile.ZipFile('rmti-code.zip').extractall('.')"
+    startCommand: >-
+      python -c "import zipfile; zipfile.ZipFile('rmti-code.zip').extractall('.')" &&
+      python -m app.server
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.3

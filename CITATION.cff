@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it together with the RMTI reference implementation."
+title: "RMTI API: HTTP interface to the Risk Mechanism Theory Index (disaster risk and oncology applications)"
+version: 1.0.0
+authors:
+  - family-names: Marolla
+    given-names: Cesar
+    orcid: "https://orcid.org/0000-0001-8498-7380"
+    affiliation: "Harvard University, Division of Continuing Education"
+license: Apache-2.0
+repository-code: "https://github.com/drmarolla/rmti-api"
+url: "https://marolla-rmti.onrender.com"
+references:
+  - type: software
+    title: "RMTI: Risk Mechanism Theory Index, Reference Implementation"
+    authors:
+      - family-names: Marolla
+        given-names: Cesar
+    doi: 10.5281/zenodo.21445892
+keywords: [RMTI, risk mechanism theory, disaster risk, oncology, API]

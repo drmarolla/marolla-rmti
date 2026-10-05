@@ -1,0 +1,2 @@
+# Intentionally empty: the API uses only the Python standard library.
+# No third-party packages means nothing to install and nothing to break on a version change.
